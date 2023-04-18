@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="商店" width="32" height="32">
+  <properties>
+   <property name="goods_a" value=""/>
+   <property name="skin_s" value=""/>
+  </properties>
+ </object>
+</template>

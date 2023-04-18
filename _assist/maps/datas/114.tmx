@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="4">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="9" height="12">
+  <data encoding="base64" compression="zlib">
+   eJyzYGBgsMSDLaB4BhDPBOJqNHomFjXoOAZJzV4gjsCCa5DUSACxJA4MUzMLiGdDaUkoDcMwNVJIWBKNT4pdhNRYEQhDkHwUNHyicYRRFJIamJg0FjUA/LAh1A==
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="9" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAveMhMnBpcmBQziTGHWmqQwQsi/EiMGmzmAwAmdB1z
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="128" y="352">
+   <properties>
+    <property name="scene_s" value="111"/>
+    <property name="sx_8" value="7"/>
+    <property name="sy_8" value="26"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/传送.tx" x="32" y="96">
+   <properties>
+    <property name="scene_s" value="121"/>
+    <property name="sx_8" value="1"/>
+    <property name="sy_8" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

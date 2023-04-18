@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="13">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="4"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzNlu1Nw0AMhp2/FS2wRimh7FFoGKQokzAKm1CYo1SCEcgpZ8V6azsOTRAnvWrzcX78da0PRPSp6EjjrYNjf1YQ7elUF8V4fI1xW7Q+pGcbRZKv+e8Jc6cxOMb0bA26L1r/2F5p5MgS7z1m39P+O2BwjMyvstL3p0Yv1CnZ1HL0ZtyXfpTZ1lbY50/mp3jrrNfm3Wfgb5QceWI/HoWdnbBf53xIvuRJPQxkYx0tu1E+1u2y0ZWi6zP4a8iVx8drycJ72Ece3/JhCzbfSed/0Ckb+6iPr/mQ+kb68EVtD6G+Kc7mntL4Ws7QB09Rtsb39rIPlcGtAmysp+RH9sozjKoD+zGXkh/ZO5Z2Rfz8T6X/xE/5nze6abSY0BfJQL6cB6biJ578P5b8PXXXU8W+KrpZCPuf54FlztFQeXVjNlE3C2m/P5GZD2cxnrU8v1fCLvLktZy5tFmOa5fyx8I9fXOzx5d2NfvM1mYt+b7nwzLXSuN7dlk4i1lzbSQH1vyr2WVFZj+tjlKl4GPfLAKMsaTlyerjIX7NDRveuehbVp2icZ27rDppsQ6J67drNmGsf8n/AaUxTXo=
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztleEKhCAQhIPe/yE7wufolzTsjeusp8lVAwNCzn5qmy3Lq9na1m+PZtT4O9irqWgn9TGL47SeGeSzfMlY1+4hQT02zzrCrZ2jrdvC/zj+hV+aeyWfzWfvlrFZj9g+Uvis9+3zRBxlq/zW/lf6ifFLWXUNHrvGr2XxG7bO8vJ2H8hXsr2MzDy+il3q/9l81MhzZ8wn8K08fqtUNuP3WoMi7/55Aj8zW/nsDu/BV+oq/58oP8ro5ahG1f0XPlvPTN2BfwC7gc7m
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="480" y="992">
+   <properties>
+    <property name="scene_s" value="132"/>
+    <property name="sx_8" value="16"/>
+    <property name="sy_8" value="30"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/妖兽区域.tx" x="32" y="96" width="960" height="896">
+   <properties>
+    <property name="bg_8" value="5"/>
+    <property name="ogres_a" value="[36,37]"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/大牛.tx" x="480" y="256">
+   <properties>
+    <property name="bg_8" value="5"/>
+    <property name="message_8" value="13601"/>
+    <property name="ogres_a" value="[38,36,36,36,36,36,36]"/>
+    <property name="skin_s" value="h032"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/传送.tx" x="480" y="128">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="179"/>
+    <property name="sy_8" value="296"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/障碍.tx" x="480" y="128">
+   <properties>
+    <property name="tile_8" value="172"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/宝箱.tx" x="896" y="384">
+   <properties>
+    <property name="goods_8" value="1008"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="8" template="../dots/宝箱.tx" x="832" y="96">
+   <properties>
+    <property name="goods_8" value="1003"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/宝箱.tx" x="736" y="256">
+   <properties>
+    <property name="goods_8" value="1008"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="10" template="../dots/宝箱.tx" x="736" y="192">
+   <properties>
+    <property name="goods_8" value="1009"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/宝箱.tx" x="320" y="160">
+   <properties>
+    <property name="goods_8" value="3002"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="12" template="../dots/宝箱.tx" x="128" y="352">
+   <properties>
+    <property name="goods_8" value="3006"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

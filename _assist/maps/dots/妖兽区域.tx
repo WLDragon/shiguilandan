@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="妖兽区域" width="319" height="255">
+  <properties>
+   <property name="bg_8" value="0"/>
+   <property name="ogres_a" value=""/>
+  </properties>
+ </object>
+</template>

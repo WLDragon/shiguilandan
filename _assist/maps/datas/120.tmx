@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="7">
+ <properties>
+  <property name="tile_16" value="149"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="11" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsANiewK0LRDLAvEVIrAsFMsBsTwBPFjU2iL51x7Kl8Mhju7fWKjaWCxy09Awsrnocuj4ClQtNnMA9A0lWw==
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="11" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdeMhMGA8mtdjcT4pf6akWAJR+I6E=
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="160" y="288">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="47"/>
+    <property name="sy_8" value="233"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/义工.tx" x="160" y="160">
+   <properties>
+    <property name="goods_8" value="0"/>
+    <property name="message_8" value="12001"/>
+    <property name="skin_s" value="h025"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/宝箱.tx" x="64" y="64">
+   <properties>
+    <property name="goods_8" value="2008"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/宝箱.tx" x="128" y="64">
+   <properties>
+    <property name="goods_8" value="1002"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/宝箱.tx" x="192" y="64">
+   <properties>
+    <property name="goods_8" value="1004"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/宝箱.tx" x="256" y="64">
+   <properties>
+    <property name="goods_8" value="1005"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

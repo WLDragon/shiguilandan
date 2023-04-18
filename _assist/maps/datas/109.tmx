@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="41" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="5">
+ <properties>
+  <property name="tile_16" value="3"/>
+  <property name="type_8" value="5"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="41" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztlmtOwzAQhJ1D8Gj/5w6lB81RIsJBrIqTAL+wJa8YhjE4jRUXySuNosQb72fv+uFcXXsOWkAvlfuvYZegu8G5+6CHoNfWQMLegt5BH21xpD2GuTsEPaXncWhN9NM6Yx3rjHWsM9axzrjd4ll9IsbzcDtnduQbf9EtcPI5bWd1S067g1lcq8MD1GFUy/m8UFzFeBaMe92DVO2diDHHt9c6xzk0YR2qNWN8ezGqeyzOobWP0H4c9mVU+zQyqvbO2BlLbE6K9T25r3U4iW9j8t3CGPekORMrF9snIQPvG/jNb2CMfFPqg7lysZU8+c80Btyv8W6zwHfFiHv6nHlibM4vilk9jc/8lvS+uO/8yIpjUPPAT2zH/DIjs9o/OT+VM2TnMVhMzqt6L819qUrZrY1riteEdzr312q60kexqTXhK6ikH+WTY+O6XSOegxK/Ev+/WNbk1MZf6lfqv7a/GnlVOdui6R/oE3IUJn8=
+  </data>
+ </layer>
+ <layer id="3" name="图块层 2" width="41" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztlkEKgDAMBAv+/5H+RDwIQaMkspA57EDpMUPbdLOWln17LhqX032nQT7DCN3vxI4a7KjBjhrs+J+YLXGn+GazBHG2yJwmPat1J8+zUpfkl9Wffo+V/iD0S+eeJ6n0yzR21GBHDV3HCecsk9+cSFnzNZ9R/nNC5nTqUjLRGMPjAAogggk=
+  </data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="384" y="928">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="1"/>
+    <property name="sy_8" value="207"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/传送.tx" x="704" y="32">
+   <properties>
+    <property name="scene_s" value="110"/>
+    <property name="sx_8" value="6"/>
+    <property name="sy_8" value="14"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/妖兽区域.tx" x="416" y="0" width="512" height="960">
+   <properties>
+    <property name="bg_8" value="4"/>
+    <property name="ogres_a" value="[13,14]"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/宝箱.tx" x="480" y="480">
+   <properties>
+    <property name="goods_8" value="3001"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

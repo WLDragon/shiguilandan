@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="路人" width="32" height="32">
+  <properties>
+   <property name="message_8" value=""/>
+   <property name="skin_s" value=""/>
+  </properties>
+ </object>
+</template>

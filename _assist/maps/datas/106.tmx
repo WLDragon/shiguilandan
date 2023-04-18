@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="33" height="35" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="22">
+ <properties>
+  <property name="tile_16" value="129"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="33" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzdlktOAzEMhjMngD2UzhEqsYQUblCQ2A7PAwBbpKGFHedgzxlJRKwxVn7nwUxBVPqVxLEzn+o4iTXGLJ1ORGuBPdWiOG9Hv5nTZdAF63N7iXjcobBrDM8RIbvXnjKnracx7DsdOc1D68f+vzsIthL5uKegOeunGI7FOn7cVTKguBRDLKZ3Oq1gQHE1DGMrxRCrpSWwWzPkvaQ20XesKa9B+t9QXI3da7fJF2dA88iOatZr0eSLM6B5LS62T/4Kw8r5nAUtWF+OzwXDSvjQPLJrDPfO5yHowwx9OX5shvPTsjjyofmYfcbieG1QXbQFonOwU+ZjdlRPXQUDnYO9Mp9i4Pdeb3CepjgniWGH6cV8z1PNmyW3zWGofbPUnK8aA3qXcF0zpXz5WyeXQdsXbdBGtK0SU7ofEMOVYIiJ+03BsDZftZhiIL8pGGQuEMN/yQV6R4+VC1pfY0i9o3+aC1pfY0Dv4bFyQetrDCh2rFzwfSEZpr4nZGsjDD5PU94TUl2Ewecp555A90Cp+gjDu7BtW57hjo3ftvz9G6fXoNtfEn3/E3YE77c=
+  </data>
+ </layer>
+ <layer id="3" name="图块层 2" width="33" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztlEkOgCAMRUm8/yHdeQzi1nSgIxX4SRdoqS/tr60daXVfebXfszQsrFAdLQPHxn2fq5XJ4B3eivTkTAbNvLF71PMKDBTbYYDnQp1Hc7i8B3iX1YdKDFCPogNjx5i8BPV7RwZsLygGD09a/SDxuTTv7wzZu1m1DxUYdpuFtrY1T6vvP1iqVRgsdzGGyH0Y8cdMhkrqtdgbHQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="416" y="64">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="23"/>
+    <property name="sy_8" value="248"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/传送.tx" x="96" y="1056">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="23"/>
+    <property name="sy_8" value="251"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/商店.tx" x="736" y="96">
+   <properties>
+    <property name="goods_a" value="[1001,1003,1004,1005,1002,2004,2005,2006,3001]"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/客栈.tx" x="96" y="96">
+   <properties>
+    <property name="price_8" value="10"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/义工.tx" x="416" y="640">
+   <properties>
+    <property name="goods_8" value="1002"/>
+    <property name="message_8" value="10607"/>
+    <property name="skin_s" value="h012"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/路人.tx" x="256" y="128" width="160" height="64">
+   <properties>
+    <property name="message_8" value="10609"/>
+    <property name="skin_s" value="h016"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/路人.tx" x="320" y="704" width="224" height="64">
+   <properties>
+    <property name="message_8" value="10608"/>
+    <property name="skin_s" value="h014"/>
+   </properties>
+  </object>
+  <object id="8" template="../dots/路人.tx" x="640" y="672" width="160" height="96">
+   <properties>
+    <property name="message_8" value="10611"/>
+    <property name="skin_s" value="h013"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/路人.tx" x="128" y="672" width="96" height="192">
+   <properties>
+    <property name="message_8" value="10610"/>
+    <property name="skin_s" value="h015"/>
+   </properties>
+  </object>
+  <object id="10" template="../dots/路人.tx" x="64" y="480" width="288" height="64">
+   <properties>
+    <property name="message_8" value="10606"/>
+    <property name="skin_s" value="h016"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/路人.tx" x="640" y="800" width="160" height="96">
+   <properties>
+    <property name="message_8" value="10605"/>
+    <property name="skin_s" value="h016"/>
+   </properties>
+  </object>
+  <object id="13" template="../dots/义工.tx" x="416" y="1024">
+   <properties>
+    <property name="goods_8" value="0"/>
+    <property name="message_8" value="10612"/>
+    <property name="skin_s" value="h015"/>
+   </properties>
+  </object>
+  <object id="14" template="../dots/大牛.tx" x="128" y="320">
+   <properties>
+    <property name="bg_8" value="3"/>
+    <property name="message_8" value="10602"/>
+    <property name="ogres_a" value="[5,7]"/>
+    <property name="skin_s" value="h021"/>
+   </properties>
+  </object>
+  <object id="16" template="../dots/大牛.tx" x="544" y="320">
+   <properties>
+    <property name="bg_8" value="3"/>
+    <property name="message_8" value="10603"/>
+    <property name="ogres_a" value="[6]"/>
+    <property name="skin_s" value="h019"/>
+   </properties>
+  </object>
+  <object id="17" template="../dots/大牛.tx" x="736" y="320">
+   <properties>
+    <property name="bg_8" value="3"/>
+    <property name="message_8" value="10601"/>
+    <property name="ogres_a" value="[4]"/>
+    <property name="skin_s" value="h018"/>
+   </properties>
+  </object>
+  <object id="19" template="../dots/义工.tx" x="256" y="320">
+   <properties>
+    <property name="goods_8" value="4005"/>
+    <property name="message_8" value="10604"/>
+    <property name="skin_s" value="h020"/>
+   </properties>
+  </object>
+  <object id="20" template="../dots/义工.tx" x="960" y="512">
+   <properties>
+    <property name="goods_8" value="0"/>
+    <property name="message_8" value="10613"/>
+    <property name="skin_s" value="h015"/>
+   </properties>
+  </object>
+  <object id="21" template="../dots/路人.tx" x="352" y="800" width="160" height="96">
+   <properties>
+    <property name="message_8" value="10616"/>
+    <property name="skin_s" value="h013"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

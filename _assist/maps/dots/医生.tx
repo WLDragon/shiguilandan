@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="医生" width="32" height="32">
+  <properties>
+   <property name="price_8" value=""/>
+  </properties>
+ </object>
+</template>

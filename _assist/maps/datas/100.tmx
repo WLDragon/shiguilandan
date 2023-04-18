@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="19">
+ <properties>
+  <property name="tile_16" value="14"/>
+  <property name="type_8" value="2"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eJyllk1y1EAMheUT2NNDsglJVj5BqNkkhENATgLkHpCQe0BmvAmX4M874AzAElKDVO5X80aopzzD4qu21Xa/lqyW/FVEvo3g+8jntsHWvFcmyuUGbH6p3AS0BTvPl55ZOv0HAazf5bXqDN9jnCqvlNfKFT07Cezb6vekW+d7012Qn8YH5aPySdnPtiaw7+I/dOEX9GvS/6H8VH4pe/n9JrDv4n9L++hIH2APs2Buke3Y+//6b2PagSbj9UErcf5z3EHKo/dzDKzPtIGtlP9JVuerk/I59Gely2seViJHIziu4vxPZIviw3NT2kOf9R/ruueOR/Kv7Uk1+OHzP5Hthuxf6LqnPfOeEH/+JlxL6uDe5z/77zW8/2zrSZ+/C/axqab6/G/zde+eS/S8jXfKe/f9kX8dfR/spymMHJNE9x4+c/bMb+WPDLWP/Ud8bESNBlek5b8T538t6/Uddbcl/QPNoYfVUPsS6aOu2fhWeUfc0lpen/PftLm+Yw8T2uOpap9Vq7hBn/so1jiR9V7hY+zz3957qjxTLvJ78LMExx/xtB7xQoY+YSN6RVcAvl0rz/N7L5U3FHvsGX3I5x/HfxbA+e3h78/vsJ+Y5/z354//UXzu7sqCRoPzv3P6XD+i2u1tiKOPr+8xrM/57/1HPGtaG/9TOJs+9/hsTd0czwPkfwr8L9U6xKOX9djY9TyvO8/6U9mcpwz7z3UP/2oM4t/QM3OnP5dVTYgo9f8x/dfe97bPMpBkdT2mj/ueHvXfbYh69Visp/8FaYlP+A==
+  </data>
+ </layer>
+ <layer id="3" name="图块层 2" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eJy9k0sKgDAMRAXvf0hdeA5XQgiTmWnaGijST/LyGe/zOG5zXRvWF5sZe3MJ349T3cXYqObMj7nnPWKp8w6/+v7Nr/qg3u2oH9WL5s701+Wv1j/aI/2xOh2LfGdlfty7vOzb4edv5LPeVFrM9pB6qrlnhsoN3Vf5I9aq+rs6cuavzp18Vq6R3HO+aE6ohuyj5qC06PKZ34ieunFW89G8FAP1RTFdv5neKP0pfczoHeXOtOv8DyN96vB394XxWf7VDGMst18j9aAYKj/Hur1i/M4cZmw2xgtp47TU
+  </data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="896" y="128">
+   <properties>
+    <property name="scene_s" value="101"/>
+    <property name="sx_8" value="14"/>
+    <property name="sy_8" value="15"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/传送.tx" x="512" y="800">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="25"/>
+    <property name="sy_8" value="288"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/路人.tx" x="160" y="608" width="128" height="32">
+   <properties>
+    <property name="message_8" value="10006"/>
+    <property name="skin_s" value="h006"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/路人.tx" x="512" y="96" width="32" height="416">
+   <properties>
+    <property name="message_8" value="10005"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/路人.tx" x="800" y="512" width="192" height="32">
+   <properties>
+    <property name="message_8" value="10009"/>
+    <property name="skin_s" value="h013"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/传送.tx" x="192" y="544">
+   <properties>
+    <property name="scene_s" value="102"/>
+    <property name="sx_8" value="4"/>
+    <property name="sy_8" value="11"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/义工.tx" x="160" y="128">
+   <properties>
+    <property name="goods_8" value="5009"/>
+    <property name="message_8" value="10001"/>
+    <property name="skin_s" value="h012"/>
+   </properties>
+  </object>
+  <object id="12" template="../dots/传送.tx" x="704" y="128">
+   <properties>
+    <property name="scene_s" value="103"/>
+    <property name="sx_8" value="7"/>
+    <property name="sy_8" value="10"/>
+   </properties>
+  </object>
+  <object id="14" template="../dots/传送.tx" x="640" y="544">
+   <properties>
+    <property name="scene_s" value="104"/>
+    <property name="sx_8" value="12"/>
+    <property name="sy_8" value="14"/>
+   </properties>
+  </object>
+  <object id="15" template="../dots/路人.tx" x="672" y="288" width="96" height="96">
+   <properties>
+    <property name="message_8" value="10003"/>
+    <property name="skin_s" value="h011"/>
+   </properties>
+  </object>
+  <object id="16" template="../dots/宝箱.tx" x="128" y="640">
+   <properties>
+    <property name="goods_8" value="2002"/>
+    <property name="tile_8" value="0"/>
+   </properties>
+  </object>
+  <object id="17" template="../dots/路人.tx" x="544" y="608" width="192" height="32">
+   <properties>
+    <property name="message_8" value="10007"/>
+    <property name="skin_s" value="h010"/>
+   </properties>
+  </object>
+  <object id="18" template="../dots/路人.tx" x="864" y="256" width="96" height="64">
+   <properties>
+    <property name="message_8" value="10008"/>
+    <property name="skin_s" value="h006"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

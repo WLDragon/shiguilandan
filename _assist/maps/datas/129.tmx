@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="19">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="4"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzNW1lOHDEQHf+OwnYNQljugcRwkpCLQS4S4BwEKRwhbTGlqZTeq8XdE42l0rC02361ufzseVutVr8neV/tr71tx/CEjZ/pG70DvUeeXbfV6nn6/NLGsHlNxrzcjuHJt4YxZfqKeBjWDT/b/37bavizNtFzv22+eLi8fr/U/7sOmQ+sTT+N/7qA/21Vs4mM97r6HIeJh9Hrp8X6kdbF2jw7il/8KLKnnnvH/hHgvyrg9HTI4mEJ/GL7ik26RNi7vEzPbNqnzNUBiocKfhbf4vcvCTzXWyyR34v8mZ57aJ9y13a6mKMPiYf3Av4ovm+3c9X2QvK6xZOxvZXvbacLrY/ReOg6uEzg19ijXKTtJfKo/jaCO9KH6HxEB8/b+RxN8nWSC4Bf57al5r6kiM6z8ad1IJhsnrP4DxW71cNojrA1gsUf9X+a+py2WH4WbCQ+2eU42Wc0R7B10cOvMVfs1HWgsTG5APOpis4R3nNsXWT4n4qxZvFqbJl2DvST9QmJjaiWsvU/w39SwDmKt6KTrB6iWGD1vx3H8yW2XxvZm2ZbNjZ0bmAYLH4UE1LnMB+qyBL76/NiLAiGDH5WK7L+2f2P3W/ObSP5EeUDi9+rFe1aWxU93txm82PGHzL4tQ6kVkTxNCK9Lt4Hv2T1wXSRxa/9Wn7PrN+eHLdl7e81FhsV/Oy5uXNC74l4tOqakcXfbWr3P/8Lv8Yc8Wje2Eh3Nm8x/B4vwvS0BH7ELYyuGZbPRXmL4Uf13z6wW/yIO/R8r8LnipxOcmbeY2sYvQdgNQXjUefir+6vmQ94fntjfpf9sv2/5wNL1W66vmTxOeIDFfxd+houOhBO0sO/VO2G3n3SatwBGt+rhRF+0UGvRYSb+x9rIJqnzkdWFxK7WgdsfKYDhp/h2id+yfkIP+IWbgCGKA9W8TMOdB/47bsFs8a+UZ/3BEPFByL89l1RDb0UfoRdzgmEO/9RxK91IOucd+Zi13VbR6EcnaldM/55ZT69c8EKfhmnr3OPzjtRLKE6CuFHesqskR7+Pk/EJ58N4s/kPPsuqUn0OTp6Hukps0Z6+E/V/zZK7tsuDyCfRa3CESL+O3oe1ZsZ+yD8lk+RHKBF8kC1Ds9wZFX8Ue3mzRHht3yKxCs6Mx3JvZX1LMOfZPSTyX8eL41yYcb2KA+Prucj/GoXzZ16+BGPJuteBbvHIWTO8aK1tOoLwhui947wtRF2j0OQcww2/4pebT+Pd2VrQNWnsthZHpZ9O8pXUTzZNc7zGWTXkb16xTcz9xOiOsZrdo3rfaQ+QTWztauXVzIxlbF9xJ8wv8jkUmQnWbOYb1fOPtHZbra/2L6aS7K2j/BLXO3znjBro/fuUF7w9ise/ioXNufOM5qXZ/vM/ZEMt+7hr3JhjJ8e4RU93tTGNcu1GW7dw1+JIz3nUX4/mhfLadm1ZhR/lhfP7quihvgzhF3ftY9ihOXaDH7tv+gOSOZcKYPffncAccKsDpZnNLeayd8RV2vjiMW0tpl3fmxtwPBI7GsdyJ4U1cFo7tmcY+1217j9WEzrfJ2xMdvLWDw3AA+rdyz+TM5BsabPTbJ5Redr754UOv9leDbtX06IYfZ817OH3lvYPl0H2Tu3liuJ1kCPU9J2f2g7Tigj7N6it0fx9hb67vGm5e/dRmtg1L+Pkf0OQYSd4a/Ul/beu+byKnNkWDfq55HvEET3Vdm6P7q30JzOnHtimgNlnFBGvLuvfQyGf87eAumiKkt9X8L6o9bvh4N/ibEPQbQNxI9Ev4wDGOXoojtvoxLduZvDU6MaMMPRVe61RzxH5fsAqM311wpPac/KD6HNObPweDBkt0PCjZq221Ggk6XutB1as3csWfwh7H8BJHl1XQ==
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztmcFuxDAIRCv1/z9ye9jvqPYQyUI2zMDgJNqM5EvXYB42Jkl/fh49uq/+fus+XgIf6Dqr4enDiIxIq7md/MdaHvsL5LsSPxNXxH6s352DM/gP/2gOVHmY5ULFj+zXOJcd2Vzv4PfifBe5kXxUcrCqjxmLMv6OXGRygPKfzYgM5f048ivXzdZ7xqaTX3kHI+q8I1j+HbzqnLAxrvjP4IzUzW//dkd+qyh+7w5C7HdL0SusP2+Nh78+zswHwm9z4NUTq53npcI/6wMK3Yk/ukszuho/YvPw62K6I79SHr+6Zxy2lgV5B9jFr+qbnl10Brx+18mvfG5g+Mf5B++obn4vtqhmMzlY1fR7wbijB8xi82JH7wGU3+M6gz/auy7+mTr5GfbVHDYHFZ4ufo9r9u080wvH+y27l7v4vTgz/B+bt+PvivxeDWT42XtvtF35qYqp/Rk/K5Y/ky9rV+H37LLq4M/WlOVfrW/n7+JH7VT8Kx/ouejkz+QA5Z/p3cAeMSh8ZPjRoVKF3dpnfh/Vyb6Ko8Lu+c34V/MjZ1HBH8XF+u9k9/izvtU1WVWmPz38ef9X4kfZvom/Mg+x7erNrBimSj0o+ZW9ntnPq+y/kt++PyAMilxXY1Ypeocc1cnP+FTx2+8i6L2n4LfrM2e6yj/zb/m9Oy5bc6u7g+HP9ovIL/q8U7lzop6RPQ8Mr/XBPOtV4mF7J5MLdjAxIewRP7OOOhejjm9CmXi69x7NBavq2tW6V61/9hhl/6em5O/MJ6IOv11nu0Nd+b0690zqs3VHWbZvYv8oy/cP6To70Q==
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="64" y="1088">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="145"/>
+    <property name="sy_8" value="241"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/传送.tx" x="1536" y="64">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="166"/>
+    <property name="sy_8" value="222"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/传送.tx" x="1600" y="2016">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="166"/>
+    <property name="sy_8" value="246"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/妖兽区域.tx" x="32" y="96" width="1952" height="1888">
+   <properties>
+    <property name="bg_8" value="2"/>
+    <property name="ogres_a" value="[22,23]"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/大牛.tx" x="1088" y="928">
+   <properties>
+    <property name="bg_8" value="2"/>
+    <property name="message_8" value="12901"/>
+    <property name="ogres_a" value="[24]"/>
+    <property name="skin_s" value="h028"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/宝箱.tx" x="1184" y="1056">
+   <properties>
+    <property name="goods_8" value="1004"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/宝箱.tx" x="1152" y="1056">
+   <properties>
+    <property name="goods_8" value="1004"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="8" template="../dots/宝箱.tx" x="768" y="128">
+   <properties>
+    <property name="goods_8" value="3006"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/宝箱.tx" x="32" y="96">
+   <properties>
+    <property name="goods_8" value="2007"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="10" template="../dots/宝箱.tx" x="576" y="1344">
+   <properties>
+    <property name="goods_8" value="2008"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/宝箱.tx" x="960" y="1536">
+   <properties>
+    <property name="goods_8" value="2009"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="12" template="../dots/宝箱.tx" x="1952" y="1504">
+   <properties>
+    <property name="goods_8" value="1003"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="13" template="../dots/宝箱.tx" x="1504" y="800">
+   <properties>
+    <property name="goods_8" value="6003"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="14" template="../dots/宝箱.tx" x="1952" y="96">
+   <properties>
+    <property name="goods_8" value="3002"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="15" template="../dots/宝箱.tx" x="1088" y="128">
+   <properties>
+    <property name="goods_8" value="6002"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="16" template="../dots/宝箱.tx" x="352" y="1504">
+   <properties>
+    <property name="goods_8" value="1005"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="17" template="../dots/宝箱.tx" x="928" y="1120">
+   <properties>
+    <property name="goods_8" value="1003"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="18" template="../dots/宝箱.tx" x="1152" y="896">
+   <properties>
+    <property name="goods_8" value="3005"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

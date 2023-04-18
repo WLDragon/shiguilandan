@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="4">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="9" height="12">
+  <data encoding="base64" compression="zlib">
+   eJyzYGBgsMSDLaB4BhDPBOJqNHomFjXoOAZJjQQQR2DBNWhqJHFgmJpZQDwbSktCaRiGqZFCwpJofFLsIqTGikAYguSjoGERjSOMopDUwLA0FjUALtQhMQ==
+  </data>
+ </layer>
+ <layer id="3" name="图块层 2" width="9" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAveMhMnBpcmBQziTGHWmqQwQsi/EiMGmzmAwAmdB1z
+  </data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" template="../dots/商店.tx" x="128" y="128">
+   <properties>
+    <property name="goods_a" value="[1001,2001,2002,2003]"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/传送.tx" x="128" y="352">
+   <properties>
+    <property name="scene_s" value="100"/>
+    <property name="sx_8" value="6"/>
+    <property name="sy_8" value="18"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

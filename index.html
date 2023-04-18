@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>是鬼烂但</title>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-size: .18rem;
+      background-color: #000;
+    }
+
+    canvas {
+      margin: 0 auto;
+      display: block;
+      image-rendering: pixelated;
+    }
+
+    #error {
+      background-color: #000;
+      position: absolute;
+      color: #ff0000;
+      display: none;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+  </style>
+  <script src="./js/pixi.min.js"></script>
+  <script src="./js/pako.es5.min.js"></script>
+  <script type="module">
+    import './main.ts'
+  </script>
+</head>
+
+<body>
+  <div id="error"></div>
+</body>
+
+</html>

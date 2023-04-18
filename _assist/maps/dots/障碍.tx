@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="障碍" width="32" height="32">
+  <properties>
+   <property name="tile_8" value=""/>
+  </properties>
+ </object>
+</template>

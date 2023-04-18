@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="大牛" width="32" height="32">
+  <properties>
+   <property name="bg_8" value="0"/>
+   <property name="message_8" value=""/>
+   <property name="ogres_a" value=""/>
+   <property name="skin_s" value=""/>
+  </properties>
+ </object>
+</template>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="39" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="13">
+ <properties>
+  <property name="tile_16" value="129"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="39" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzNlktOxDAMhnOD0ayZoWw4AcuZwhyCJW9ugXjv5hpwUWLJFpZJ/ApCRPqUNk7jv7UbZy6lnFbOOv2s2CI9rPNe+XACc9eVKwXL7uWy8llZGCyRN/T9rGDZiQPD/uTQ1dK2qkyVDWPCcbAf4v0oGW3bzlpbpg3yZSTn4PljJKJN+y5kH827NdOm6ctq6+XSDUPL20VQm7VHzExb6x2OKq+i770j+Y98N+vft7RJetqWAVp7iNwL4N/fCW3XTm18XlabZ4/g815Qr6WNz8to8+Sb1JaJaW8P0sY9NUvmWzamtOaJWJ+uz8V4L98ukJa2bEwjNZG0rcrPGDwivC6MxvQBmdj1jP6pTm7Kd63UahbPM9pLsjHlz09iXPqnWumtC7SXZGPKn+f0xiPaenZN2wjg1zpf/Na5N9qDX4i3VbOyZ48RwC/Eu/UP85ql2Xu1bhTwG2n3xXd2ldwG/WRbVN9f6dL07f+BLmp3DkbbF5oexmY=
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="39" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztk0sOwCAIRE28/yEbNj1G484YLMNHdOEkLGqEeRYo5arpqXhE+65gI4a1fVPV14wK6U2af4LIwibduWzyLrzMec8o8Ut3stlQLy8bdz7WRn0sOZp58/hEsGX11CuEDeUcc7xaOW8W0aTujM3bU80e/vlybCgnksP5I1xZbCgzmrs6IsXt9yk6mS26D1aGnbMTybdDp3Jl6QNzbnrE
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/义工.tx" x="576" y="224">
+   <properties>
+    <property name="goods_8" value="0"/>
+    <property name="message_8" value="12201"/>
+    <property name="skin_s" value="h027"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/路人.tx" x="32" y="448">
+   <properties>
+    <property name="message_8" value="12202"/>
+    <property name="skin_s" value="h013"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/路人.tx" x="512" y="512" width="192" height="32">
+   <properties>
+    <property name="message_8" value="12203"/>
+    <property name="skin_s" value="h014"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/路人.tx" x="480" y="384" width="160" height="96">
+   <properties>
+    <property name="message_8" value="12204"/>
+    <property name="skin_s" value="h015"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/路人.tx" x="672" y="256" width="64" height="128">
+   <properties>
+    <property name="message_8" value="12205"/>
+    <property name="skin_s" value="h016"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/路人.tx" x="960" y="64" width="160" height="192">
+   <properties>
+    <property name="message_8" value="12207"/>
+    <property name="skin_s" value="h014"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/路人.tx" x="64" y="160" width="160" height="32">
+   <properties>
+    <property name="message_8" value="12206"/>
+    <property name="skin_s" value="h016"/>
+   </properties>
+  </object>
+  <object id="8" template="../dots/商店.tx" x="928" y="448">
+   <properties>
+    <property name="goods_a" value="[1002,1003,1004,1005,2004,2005,2006,3001,3002,3003,3004,3005]"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/传送.tx" x="576" y="64">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="77"/>
+    <property name="sy_8" value="216"/>
+   </properties>
+  </object>
+  <object id="10" template="../dots/传送.tx" x="576" y="736">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="77"/>
+    <property name="sy_8" value="219"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/客栈.tx" x="1120" y="448">
+   <properties>
+    <property name="price_8" value="15"/>
+    <property name="skin_s" value="h005"/>
+   </properties>
+  </object>
+  <object id="12" template="../dots/宝箱.tx" x="1184" y="320">
+   <properties>
+    <property name="goods_8" value="3004"/>
+    <property name="tile_8" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

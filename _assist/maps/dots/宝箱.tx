@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="宝箱" width="32" height="32">
+  <properties>
+   <property name="goods_8" value=""/>
+   <property name="tile_8" value=""/>
+  </properties>
+ </object>
+</template>

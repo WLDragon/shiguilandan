@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="13">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="4"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJytll1Ow0AMhHdfU4I4RwsFToI4GZyEo/QgJc0ZyEq1Mpr4r0sfLFVN4s+79ti+lFLOi/0mbVrsEljkb6J3j7WUU8nZS/VjyfhrPuTb4frunDQvFmRHPh7qym//7WrOvFiQHflAfpadiQXZX8vvp7raNzzL8MfFDld7TMaC/70u9gb2Xrf8veG7sZ/rWld7iCUTT7MP4n8qfI5BztzYlo4miseKpd3HD9is3L+Y5AFr2tIR6qenhvhuRTc7hRfpp4evnf1UtjVt6WimO7Bq6Bb+LT1A7smqoR5+j/a5DrIx3IMvdyD1mskFaivLxx7EWsO+h3FwrzgYXIs/Ot/w+bj/on6z83ogtjC1/jMZ96XNJC0/Hp/ZWv9ptePl2JrXUqvnso1H8mWx0Z/4kW+yc4lnNGtA21+0HqTpPhsHnkfjMzure20+WnoRv8zPsFn31v6H9Xo0fCA/Yo90Fm0GeTUb8QeHje+i7rQ8WLts1AO1+TPCebHmMZ+ch8wc0/qB1v9afPi/dQcYQ2aOYB+J+h+e19oXWdsRX3Ki8XkvwmfevoPajvhW/WmatJ5p/dfbl+7N79m5tPr6D9/qedHuwdrLMqzdIROT9/0f0Q2wqg==
+  </data>
+ </layer>
+ <layer id="2" name="图块层 2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlUEOgCAMBEn4/yP14Ds8EYkB205L9WATDtqysxTEUv74QmxVNyL0KFvrpeX3wRjNjfA5qtHyR9reHlv5TY/GrCdHvUZfl8En5+ZrfHLuvd/Nag0vW9qnDD7xQDw/1UYGvXui+db6KB9Ew7rHq4KeUaKf6SNap38mbOrBexfccyv5Ui3pAVl3/25Wp9Eh65ZYnv+IxJ/ltPUeviUn9cvqg3ibnZcsvoUn7QHlaz1p5rwRJ9FcRwo=
+  </data>
+ </layer>
+ <objectgroup id="3" name="对象层 1">
+  <object id="1" template="../dots/传送.tx" x="64" y="992">
+   <properties>
+    <property name="scene_s" value="000"/>
+    <property name="sx_8" value="87"/>
+    <property name="sy_8" value="271"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/路人.tx" x="640" y="800" width="96" height="128">
+   <properties>
+    <property name="message_8" value="11701"/>
+    <property name="skin_s" value="h006"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/路人.tx" x="736" y="768" width="160" height="64">
+   <properties>
+    <property name="message_8" value="11702"/>
+    <property name="skin_s" value="h010"/>
+   </properties>
+  </object>
+  <object id="4" template="../dots/路人.tx" x="768" y="864" width="160" height="96">
+   <properties>
+    <property name="message_8" value="11704"/>
+    <property name="skin_s" value="h008"/>
+   </properties>
+  </object>
+  <object id="5" template="../dots/义工.tx" x="928" y="640">
+   <properties>
+    <property name="goods_8" value="5004"/>
+    <property name="message_8" value="11703"/>
+    <property name="skin_s" value="h013"/>
+   </properties>
+  </object>
+  <object id="6" template="../dots/大牛.tx" x="800" y="160">
+   <properties>
+    <property name="bg_8" value="2"/>
+    <property name="ogres_a" value="[18]"/>
+    <property name="skin_s" value="h024"/>
+   </properties>
+  </object>
+  <object id="7" template="../dots/妖兽区域.tx" x="32" y="96" width="576" height="896">
+   <properties>
+    <property name="bg_8" value="2"/>
+    <property name="ogres_a" value="[16,17]"/>
+   </properties>
+  </object>
+  <object id="8" template="../dots/妖兽区域.tx" x="608" y="96" width="352" height="512">
+   <properties>
+    <property name="bg_8" value="2"/>
+    <property name="ogres_a" value="[16,17]"/>
+   </properties>
+  </object>
+  <object id="9" template="../dots/宝箱.tx" x="288" y="960">
+   <properties>
+    <property name="goods_8" value="1005"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="10" template="../dots/宝箱.tx" x="64" y="544">
+   <properties>
+    <property name="goods_8" value="3005"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="11" template="../dots/宝箱.tx" x="832" y="416">
+   <properties>
+    <property name="goods_8" value="1004"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+  <object id="12" template="../dots/宝箱.tx" x="704" y="416">
+   <properties>
+    <property name="goods_8" value="1003"/>
+    <property name="tile_8" value="109"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

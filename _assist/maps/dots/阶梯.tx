@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="阶梯" width="32" height="32">
+  <properties>
+   <property name="down_8" value=""/>
+   <property name="left_8" value=""/>
+   <property name="right_8" value=""/>
+   <property name="up_8" value=""/>
+  </properties>
+ </object>
+</template>

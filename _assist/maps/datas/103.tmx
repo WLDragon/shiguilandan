@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="14" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="4">
+ <properties>
+  <property name="tile_16" value="236"/>
+  <property name="type_8" value="3"/>
+ </properties>
+ <tileset firstgid="1" source="../tiles/tiles.tsx"/>
+ <layer id="1" name="图块层 1" width="14" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyV0X0KgCAMh2GPYR8HMesgJR1EqINkXbYJv8EYpvTHAw72RjBnjJkaXGHOLnKQBPKdebUju1SwQ1A73G1khU44IXeWjMCdVftfFpBdJDdEta+/Xeqen12ee9D/xzszcNe6ny/MtTswfYfQ6IZK9wIWBzCy
+  </data>
+ </layer>
+ <layer id="3" name="图块层 2" width="14" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBia4CEzAqOLP4ZibGrxYVx24DIHlzso1YfPfdjciQu8IEEtNfThcxsAbzgpCw==
+  </data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" template="../dots/路人.tx" x="32" y="128" width="224" height="32">
+   <properties>
+    <property name="message_8" value="10301"/>
+    <property name="skin_s" value="h006"/>
+   </properties>
+  </object>
+  <object id="2" template="../dots/路人.tx" x="320" y="160" width="96" height="64">
+   <properties>
+    <property name="message_8" value="10302"/>
+    <property name="skin_s" value="h010"/>
+   </properties>
+  </object>
+  <object id="3" template="../dots/传送.tx" x="224" y="320">
+   <properties>
+    <property name="scene_s" value="100"/>
+    <property name="sx_8" value="22"/>
+    <property name="sy_8" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

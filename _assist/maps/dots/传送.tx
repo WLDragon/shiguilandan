@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="传送" width="32" height="32">
+  <properties>
+   <property name="scene_s" value=""/>
+   <property name="sx_8" value=""/>
+   <property name="sy_8" value=""/>
+  </properties>
+ </object>
+</template>
