@@ -34,6 +34,16 @@
 
 * npm run mp3: 打包音频文件到`public/sound.bin`
 
+## 构建生产版本
+
+构建生产环境的版本需要使用工具把_assist/images里的图片打包成图集sprites.png(sprites.json)，然后放到public/assets里
+
+使用vite的build指令构建版本
+
+* 开源图集工具：[ShoeBox](http://renderhjs.net/shoebox/)
+
+* 开发和构建工具：[Vite](https://vitejs.dev/)
+
 ## 工程结构说明
 
 **_assist** 为辅助工具，用于产出游戏中需要的资源
@@ -107,11 +117,11 @@
 
 ## 移动端体验地址
 
+* [TapTap](https://l.tapdb.net/UvqbJezw?channel=rep-rep_atfw5wtjcqh)
+
 * [谷歌商店](https://play.google.com/store/apps/details?id=fun.bantong.game4.g)
 
 * [苹果商店](https://apps.apple.com/cn/app/id6446050718)
-
-* [TapTap](https://www.taptap.cn/app/303556)
 
 * [好游快爆](https://www.3839.com/a/150965.htm)
 
