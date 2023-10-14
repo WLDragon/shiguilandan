@@ -18,6 +18,8 @@
 
 ## 编辑器
 
+* 代码编辑器：[Visual Studio Code](https://code.visualstudio.com/)
+
 * 地图编辑器：[Tiled Editor](https://www.mapeditor.org/)
 
 * 数据编辑器：[WPS Office](https://www.wps.cn/) 的表格（编辑_assist/config/*.xml）
@@ -129,4 +131,4 @@
 
 ## 移动源码说明
 
-* Android和iOS都是只使用了WebView组件，自行搜索如何使用即可。
+* Android和iOS都是只使用了WebView组件，需要了解原生开发，使用WebView作壳打包app。
